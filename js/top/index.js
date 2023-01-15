@@ -132,14 +132,6 @@ var test = function test() {
   var menu = document.querySelector('.header__menu-btn');
   var menuOpen = document.querySelector('.header__menu-btn-open');
   var menuSp = document.querySelector('.header__links-sp');
-  // if (menuBtn) {
-  //   menuBtn.addEventListener('click', () => {
-  //     console.log('menu click')
-  //     menu!.classList.toggle('d-none')
-  //     menuOpen!.classList.toggle('d-none')
-  //     menuSp!.classList.toggle('active')
-  //   })
-  // }
   if (menuBtn) {
     for (var i = 0; i < menuBtn.length; i++) {
       menuBtn[i].addEventListener('click', function () {
